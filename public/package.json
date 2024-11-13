@@ -1,0 +1,242 @@
+{
+    "packages": [
+        {
+            "id": 1,
+            "placeName": "Cox's Bazar Beach",
+            "img": "https://example.com/images/coxs-bazar.jpg",
+            "cost": 5000,
+            "duration": "3 days, 2 nights",
+            "district": "Cox's Bazar",
+            "description": "Enjoy the beauty of the world's longest sea beach with guided tours and local cuisine.",
+            "highlights": [
+                "Beach walking",
+                "Sunset view",
+                "Seafood tasting"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Local transport",
+                "Breakfast"
+            ],
+            "category": "Trending Now",
+            "pricingType": "Per Person"
+        },
+        {
+            "id": 2,
+            "placeName": "Sundarbans Mangrove Forest",
+            "img": "https://example.com/images/sundarbans.jpg",
+            "cost": 8500,
+            "duration": "4 days, 3 nights",
+            "district": "Khulna",
+            "description": "Explore the UNESCO World Heritage site and home of the Bengal tiger.",
+            "highlights": [
+                "River cruise",
+                "Wildlife viewing",
+                "Forest trekking"
+            ],
+            "includedServices": [
+                "Boat ride",
+                "Meals",
+                "Guided tour"
+            ],
+            "category": "Winter",
+            "pricingType": "Per Person"
+        },
+        {
+            "id": 3,
+            "placeName": "Sajek Valley for Friends",
+            "img": "https://example.com/images/sajek-friends.jpg",
+            "cost": 15000,
+            "duration": "3 days, 2 nights",
+            "district": "Rangamati",
+            "description": "A perfect adventure getaway for friends to experience the breathtaking Sajek Valley.",
+            "highlights": [
+                "Hill trekking",
+                "Valley views",
+                "Camping"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Transport",
+                "Guide"
+            ],
+            "category": "Friend Package",
+            "pricingType": "Package"
+        },
+        {
+            "id": 4,
+            "placeName": "Sajek Valley for Couples",
+            "img": "https://example.com/images/sajek-couples.jpg",
+            "cost": 12000,
+            "duration": "2 days, 1 night",
+            "district": "Rangamati",
+            "description": "Romantic escape to Sajek Valley, ideal for couples seeking a peaceful retreat.",
+            "highlights": [
+                "Private campfire",
+                "Scenic views",
+                "Luxury stay"
+            ],
+            "includedServices": [
+                "Luxury hotel stay",
+                "Private guide",
+                "Breakfast"
+            ],
+            "category": "Couple Package",
+            "pricingType": "Package"
+        },
+        {
+            "id": 5,
+            "placeName": "Srimangal Tea Gardens",
+            "img": "https://example.com/images/srimangal.jpg",
+            "cost": 4000,
+            "duration": "2 days, 1 night",
+            "district": "Moulvibazar",
+            "description": "Discover the tranquil tea gardens of Srimangal, the tea capital of Bangladesh.",
+            "highlights": [
+                "Tea tasting",
+                "Nature walk",
+                "Tribal village visit"
+            ]
+        },
+        {
+            "id": 6,
+            "placeName": "Bandarban Hill Tracks",
+            "img": "https://example.com/images/bandarban.jpg",
+            "cost": 7000,
+            "duration": "3 days, 2 nights",
+            "district": "Bandarban",
+            "description": "Adventure in the hills with scenic waterfalls, rivers, and cultural landmarks.",
+            "highlights": [
+                "Hiking",
+                "Waterfall visits",
+                "Local tribal experience"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Breakfast",
+                "Local transport"
+            ],
+            "category": "Rainy",
+            "pricingType": "Per Person"
+        },
+        {
+            "id": 1,
+            "placeName": "Cox's Bazar Beach",
+            "img": "https://example.com/images/coxs-bazar.jpg",
+            "cost": 5000,
+            "duration": "3 days, 2 nights",
+            "district": "Cox's Bazar",
+            "description": "Enjoy the beauty of the world's longest sea beach with guided tours and local cuisine.",
+            "highlights": [
+                "Beach walking",
+                "Sunset view",
+                "Seafood tasting"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Local transport",
+                "Breakfast"
+            ],
+            "category": "Trending Now",
+            "pricingType": "Per Person"
+        },
+        {
+            "id": 2,
+            "placeName": "Sundarbans Mangrove Forest",
+            "img": "https://example.com/images/sundarbans.jpg",
+            "cost": 8500,
+            "duration": "4 days, 3 nights",
+            "district": "Khulna",
+            "description": "Explore the UNESCO World Heritage site and home of the Bengal tiger.",
+            "highlights": [
+                "River cruise",
+                "Wildlife viewing",
+                "Forest trekking"
+            ],
+            "includedServices": [
+                "Boat ride",
+                "Meals",
+                "Guided tour"
+            ],
+            "category": "Winter",
+            "pricingType": "Per Person"
+        },
+        {
+            "id": 3,
+            "placeName": "Sajek Valley for Friends",
+            "img": "https://example.com/images/sajek-friends.jpg",
+            "cost": 15000,
+            "duration": "3 days, 2 nights",
+            "district": "Rangamati",
+            "description": "A perfect adventure getaway for friends to experience the breathtaking Sajek Valley.",
+            "highlights": [
+                "Hill trekking",
+                "Valley views",
+                "Camping"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Transport",
+                "Guide"
+            ],
+            "category": "Friend Package",
+            "pricingType": "Package"
+        },
+        {
+            "id": 4,
+            "placeName": "Sajek Valley for Couples",
+            "img": "https://example.com/images/sajek-couples.jpg",
+            "cost": 12000,
+            "duration": "2 days, 1 night",
+            "district": "Rangamati",
+            "description": "Romantic escape to Sajek Valley, ideal for couples seeking a peaceful retreat.",
+            "highlights": [
+                "Private campfire",
+                "Scenic views",
+                "Luxury stay"
+            ],
+            "includedServices": [
+                "Luxury hotel stay",
+                "Private guide",
+                "Breakfast"
+            ],
+            "category": "Couple Package",
+            "pricingType": "Package"
+        },
+        {
+            "id": 5,
+            "placeName": "Srimangal Tea Gardens",
+            "img": "https://example.com/images/srimangal.jpg",
+            "cost": 4000,
+            "duration": "2 days, 1 night",
+            "district": "Moulvibazar",
+            "description": "Discover the tranquil tea gardens of Srimangal, the tea capital of Bangladesh.",
+            "highlights": [
+                "Tea tasting",
+                "Nature walk",
+                "Tribal village visit"
+            ]
+        },
+        {
+            "id": 6,
+            "placeName": "Bandarban Hill Tracks",
+            "img": "https://example.com/images/bandarban.jpg",
+            "cost": 7000,
+            "duration": "3 days, 2 nights",
+            "district": "Bandarban",
+            "description": "Adventure in the hills with scenic waterfalls, rivers, and cultural landmarks.",
+            "highlights": [
+                "Hiking",
+                "Waterfall visits",
+                "Local tribal experience"
+            ],
+            "includedServices": [
+                "Hotel stay",
+                "Breakfast",
+                "Local transport"
+            ],
+            "category": "Rainy",
+            "pricingType": "Per Person"
+        }
+    ]
+}
