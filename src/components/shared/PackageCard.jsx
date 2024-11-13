@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PackageCard = ({trending}) => {
     const {id,placeName, img,duration,district, pricingType, cost} = trending;
@@ -25,7 +26,7 @@ const PackageCard = ({trending}) => {
         </div>
     </div>
     <div className="card-actions justify-end">
-      <button className="btn bg-orange-500 border-none text-white">See Details</button>
+      <Link to={`/details/${id}`}><button className="btn bg-orange-500 border-none text-white">See Details</button></Link>
     </div>
   </div>
 </div>

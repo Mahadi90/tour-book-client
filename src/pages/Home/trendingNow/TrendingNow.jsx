@@ -13,6 +13,8 @@ const TrendingNow = () => {
             setTrendingpackages(trending)
         })
     },[])
+
+   
     return (
         <div className='my-10 mx-2 md:mx-8'>
             <div className='text-center space-y-2'>
