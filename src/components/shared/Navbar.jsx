@@ -66,7 +66,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn px-4 bg-orange-400 border-none text-white md:px-8">Sign In</a>
+          <a className="btn px-4 bg-orange-500 border-none text-white md:px-8">Sign In</a>
         </div>
       </div>
     );

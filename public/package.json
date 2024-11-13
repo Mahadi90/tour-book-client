@@ -1,242 +1,620 @@
+
 {
     "packages": [
-        {
-            "id": 1,
-            "placeName": "Cox's Bazar Beach",
-            "img": "https://example.com/images/coxs-bazar.jpg",
-            "cost": 5000,
-            "duration": "3 days, 2 nights",
-            "district": "Cox's Bazar",
-            "description": "Enjoy the beauty of the world's longest sea beach with guided tours and local cuisine.",
-            "highlights": [
+            {
+              "id": 1,
+              "placeName": "Cox's Bazar Beach",
+              "img": "https://www.sampanresort.com/images/services/beautiful-beach-view.jpg",
+              "cost": 5000,
+              "duration": "3 days, 2 nights",
+              "district": "Cox's Bazar",
+              "description": "Enjoy the beauty of the world's longest sea beach with guided tours and local cuisine.",
+              "highlights": [
                 "Beach walking",
                 "Sunset view",
                 "Seafood tasting"
-            ],
-            "includedServices": [
+              ],
+              "includedServices": [
                 "Hotel stay",
                 "Local transport",
                 "Breakfast"
-            ],
-            "category": "Trending Now",
-            "pricingType": "Per Person"
-        },
-        {
-            "id": 2,
-            "placeName": "Sundarbans Mangrove Forest",
-            "img": "https://example.com/images/sundarbans.jpg",
-            "cost": 8500,
-            "duration": "4 days, 3 nights",
-            "district": "Khulna",
-            "description": "Explore the UNESCO World Heritage site and home of the Bengal tiger.",
-            "highlights": [
+              ],
+              "category": "Trending Now",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 2,
+              "placeName": "Sundarbans Mangrove Forest",
+              "img": "https://images.unsplash.com/photo-1524662093747-6bcf7a116dfb",
+              "cost": 8500,
+              "duration": "4 days, 3 nights",
+              "district": "Khulna",
+              "description": "Explore the UNESCO World Heritage site and home of the Bengal tiger.",
+              "highlights": [
                 "River cruise",
                 "Wildlife viewing",
                 "Forest trekking"
-            ],
-            "includedServices": [
+              ],
+              "includedServices": [
                 "Boat ride",
                 "Meals",
                 "Guided tour"
-            ],
-            "category": "Winter",
-            "pricingType": "Per Person"
-        },
-        {
-            "id": 3,
-            "placeName": "Sajek Valley for Friends",
-            "img": "https://example.com/images/sajek-friends.jpg",
-            "cost": 15000,
-            "duration": "3 days, 2 nights",
-            "district": "Rangamati",
-            "description": "A perfect adventure getaway for friends to experience the breathtaking Sajek Valley.",
-            "highlights": [
+              ],
+              "category": "Winter",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 3,
+              "placeName": "Sajek Valley for Friends",
+              "img": "https://images.unsplash.com/photo-1603791502951-9d20476f7d96",
+              "cost": 15000,
+              "duration": "3 days, 2 nights",
+              "district": "Rangamati",
+              "description": "A perfect adventure getaway for friends to experience the breathtaking Sajek Valley.",
+              "highlights": [
                 "Hill trekking",
                 "Valley views",
                 "Camping"
-            ],
-            "includedServices": [
+              ],
+              "includedServices": [
                 "Hotel stay",
                 "Transport",
                 "Guide"
-            ],
-            "category": "Friend Package",
-            "pricingType": "Package"
-        },
-        {
-            "id": 4,
-            "placeName": "Sajek Valley for Couples",
-            "img": "https://example.com/images/sajek-couples.jpg",
-            "cost": 12000,
-            "duration": "2 days, 1 night",
-            "district": "Rangamati",
-            "description": "Romantic escape to Sajek Valley, ideal for couples seeking a peaceful retreat.",
-            "highlights": [
+              ],
+              "category": "Friend and Family",
+              "pricingType": "Package",
+              "idealFor": "Friends"
+            },
+            {
+              "id": 4,
+              "placeName": "Sajek Valley for Couples",
+              "img": "https://images.unsplash.com/photo-1615391675803-4cc69856d2c1",
+              "cost": 12000,
+              "duration": "2 days, 1 night",
+              "district": "Rangamati",
+              "description": "Romantic escape to Sajek Valley, ideal for couples seeking a peaceful retreat.",
+              "highlights": [
                 "Private campfire",
                 "Scenic views",
                 "Luxury stay"
-            ],
-            "includedServices": [
+              ],
+              "includedServices": [
                 "Luxury hotel stay",
                 "Private guide",
                 "Breakfast"
-            ],
-            "category": "Couple Package",
-            "pricingType": "Package"
-        },
-        {
-            "id": 5,
-            "placeName": "Srimangal Tea Gardens",
-            "img": "https://example.com/images/srimangal.jpg",
-            "cost": 4000,
-            "duration": "2 days, 1 night",
-            "district": "Moulvibazar",
-            "description": "Discover the tranquil tea gardens of Srimangal, the tea capital of Bangladesh.",
-            "highlights": [
+              ],
+              "category": "Couple Package",
+              "pricingType": "Package"
+            },
+            {
+              "id": 5,
+              "placeName": "Srimangal Tea Gardens",
+              "img": "https://images.unsplash.com/photo-1582730629522-b174eb7a7e34",
+              "cost": 4000,
+              "duration": "2 days, 1 night",
+              "district": "Moulvibazar",
+              "description": "Discover the tranquil tea gardens of Srimangal, the tea capital of Bangladesh.",
+              "highlights": [
                 "Tea tasting",
                 "Nature walk",
                 "Tribal village visit"
-            ]
-        },
-        {
-            "id": 6,
-            "placeName": "Bandarban Hill Tracks",
-            "img": "https://example.com/images/bandarban.jpg",
-            "cost": 7000,
-            "duration": "3 days, 2 nights",
-            "district": "Bandarban",
-            "description": "Adventure in the hills with scenic waterfalls, rivers, and cultural landmarks.",
-            "highlights": [
-                "Hiking",
-                "Waterfall visits",
-                "Local tribal experience"
-            ],
-            "includedServices": [
+              ],
+              "includedServices": [
                 "Hotel stay",
-                "Breakfast",
-                "Local transport"
-            ],
-            "category": "Rainy",
-            "pricingType": "Per Person"
-        },
-        {
-            "id": 1,
-            "placeName": "Cox's Bazar Beach",
-            "img": "https://example.com/images/coxs-bazar.jpg",
-            "cost": 5000,
-            "duration": "3 days, 2 nights",
-            "district": "Cox's Bazar",
-            "description": "Enjoy the beauty of the world's longest sea beach with guided tours and local cuisine.",
-            "highlights": [
-                "Beach walking",
-                "Sunset view",
-                "Seafood tasting"
-            ],
-            "includedServices": [
+                "Transport",
+                "Guide"
+              ],
+              "category": "Nature",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 6,
+              "placeName": "Paharpur Buddhist Vihara",
+              "img": "https://images.unsplash.com/photo-1603791395289-199726bf1ba5",
+              "cost": 3000,
+              "duration": "1 day",
+              "district": "Naogaon",
+              "description": "Visit one of the largest Buddhist monasteries in the subcontinent and explore its historical significance.",
+              "highlights": [
+                "Historical site",
+                "Buddhist culture",
+                "Archaeological ruins"
+              ],
+              "includedServices": [
+                "Entry ticket",
+                "Tour guide"
+              ],
+              "category": "Cultural",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 7,
+              "placeName": "Kuakata Sea Beach",
+              "img": "https://live.staticflickr.com/7696/28530509960_4f49b8ff47_b.jpg",
+              "cost": 4000,
+              "duration": "2 days, 1 night",
+              "district": "Patuakhali",
+              "description": "Experience the unique view of both sunrise and sunset on the same beach.",
+              "highlights": [
+                "Beach activities",
+                "Sunrise and sunset",
+                "Local seafood"
+              ],
+              "includedServices": [
+                "Hotel stay",
+                "Transport",
+                "Meals"
+              ],
+              "category": "Trending Now",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 8,
+              "placeName": "Bandarban Hill Tracts",
+              "img": "https://images.unsplash.com/photo-1603791811491-4a25b72e6d7e",
+              "cost": 6500,
+              "duration": "4 days, 3 nights",
+              "district": "Bandarban",
+              "description": "Explore the scenic beauty of the hills, waterfalls, and tribal culture of Bandarban.",
+              "highlights": [
+                "Hill trekking",
+                "Waterfall viewing",
+                "Tribal village visit"
+              ],
+              "includedServices": [
                 "Hotel stay",
                 "Local transport",
-                "Breakfast"
-            ],
-            "category": "Trending Now",
-            "pricingType": "Per Person"
-        },
-        {
-            "id": 2,
-            "placeName": "Sundarbans Mangrove Forest",
-            "img": "https://example.com/images/sundarbans.jpg",
-            "cost": 8500,
-            "duration": "4 days, 3 nights",
-            "district": "Khulna",
-            "description": "Explore the UNESCO World Heritage site and home of the Bengal tiger.",
-            "highlights": [
-                "River cruise",
-                "Wildlife viewing",
-                "Forest trekking"
-            ],
-            "includedServices": [
-                "Boat ride",
-                "Meals",
-                "Guided tour"
-            ],
-            "category": "Winter",
-            "pricingType": "Per Person"
-        },
-        {
-            "id": 3,
-            "placeName": "Sajek Valley for Friends",
-            "img": "https://example.com/images/sajek-friends.jpg",
-            "cost": 15000,
-            "duration": "3 days, 2 nights",
-            "district": "Rangamati",
-            "description": "A perfect adventure getaway for friends to experience the breathtaking Sajek Valley.",
-            "highlights": [
-                "Hill trekking",
-                "Valley views",
-                "Camping"
-            ],
-            "includedServices": [
+                "Meals"
+              ],
+              "category": "Winter",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 9,
+              "placeName": "Saint Martin's Island",
+              "img": "https://images.unsplash.com/photo-1603791988392-82b72f8e8cc6",
+              "cost": 9000,
+              "duration": "3 days, 2 nights",
+              "district": "Cox's Bazar",
+              "description": "The only coral island in Bangladesh, offering a tranquil retreat with pristine beaches.",
+              "highlights": [
+                "Snorkeling",
+                "Coral viewing",
+                "Island exploration"
+              ],
+              "includedServices": [
                 "Hotel stay",
                 "Transport",
-                "Guide"
-            ],
-            "category": "Friend Package",
-            "pricingType": "Package"
-        },
-        {
-            "id": 4,
-            "placeName": "Sajek Valley for Couples",
-            "img": "https://example.com/images/sajek-couples.jpg",
-            "cost": 12000,
-            "duration": "2 days, 1 night",
-            "district": "Rangamati",
-            "description": "Romantic escape to Sajek Valley, ideal for couples seeking a peaceful retreat.",
-            "highlights": [
-                "Private campfire",
+                "Meals"
+              ],
+              "category": "Island Getaways",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 10,
+              "placeName": "Rajshahi Silk Factory",
+              "img": "https://images.unsplash.com/photo-1603792128532-12146c174378",
+              "cost": 2000,
+              "duration": "1 day",
+              "district": "Rajshahi",
+              "description": "Visit one of Bangladesh's largest silk factories and experience traditional silk production.",
+              "highlights": [
+                "Silk weaving",
+                "Handicrafts",
+                "Cultural experience"
+              ],
+              "includedServices": [
+                "Factory tour",
+                "Local snacks"
+              ],
+              "category": "Cultural",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 11,
+              "placeName": "Madhabkunda Waterfall",
+              "img": "https://images.unsplash.com/photo-1603792291127-8d9b34bda89c",
+              "cost": 3500,
+              "duration": "1 day",
+              "district": "Moulvibazar",
+              "description": "Visit the largest waterfall in Bangladesh and enjoy its serene beauty.",
+              "highlights": [
+                "Waterfall trekking",
+                "Nature walks",
+                "Scenic photography"
+              ],
+              "includedServices": [
+                "Entry fee",
+                "Transport"
+              ],
+              "category": "Nature",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 12,
+              "placeName": "Nilgiri Hills",
+              "img": "https://images.unsplash.com/photo-1603792429651-86f69e6066b7",
+              "cost": 4800,
+              "duration": "2 days, 1 night",
+              "district": "Bandarban",
+              "description": "A serene hill station with panoramic views and fresh air.",
+              "highlights": [
+                "Hill trekking",
                 "Scenic views",
-                "Luxury stay"
-            ],
-            "includedServices": [
-                "Luxury hotel stay",
-                "Private guide",
-                "Breakfast"
-            ],
-            "category": "Couple Package",
-            "pricingType": "Package"
-        },
-        {
-            "id": 5,
-            "placeName": "Srimangal Tea Gardens",
-            "img": "https://example.com/images/srimangal.jpg",
-            "cost": 4000,
-            "duration": "2 days, 1 night",
-            "district": "Moulvibazar",
-            "description": "Discover the tranquil tea gardens of Srimangal, the tea capital of Bangladesh.",
-            "highlights": [
-                "Tea tasting",
-                "Nature walk",
-                "Tribal village visit"
-            ]
-        },
-        {
-            "id": 6,
-            "placeName": "Bandarban Hill Tracks",
-            "img": "https://example.com/images/bandarban.jpg",
-            "cost": 7000,
-            "duration": "3 days, 2 nights",
-            "district": "Bandarban",
-            "description": "Adventure in the hills with scenic waterfalls, rivers, and cultural landmarks.",
-            "highlights": [
-                "Hiking",
-                "Waterfall visits",
-                "Local tribal experience"
-            ],
-            "includedServices": [
+                "Camping"
+              ],
+              "includedServices": [
                 "Hotel stay",
-                "Breakfast",
-                "Local transport"
-            ],
-            "category": "Rainy",
-            "pricingType": "Per Person"
-        }
+                "Transport",
+                "Meals"
+              ],
+              "category": "Summer",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 13,
+              "placeName": "Rangamati Lake",
+              "img": "https://images.unsplash.com/photo-1603792578087-bb4f03c1f23d",
+              "cost": 5500,
+              "duration": "2 days, 1 night",
+              "district": "Rangamati",
+              "description": "Explore the serene beauty of Rangamati Lake and enjoy the tribal culture.",
+              "highlights": [
+                "Lake boating",
+                "Scenic photography",
+                "Tribal culture"
+              ],
+              "includedServices": [
+                "Boat ride",
+                "Hotel stay",
+                "Meals"
+              ],
+              "category": "Nature",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 14,
+              "placeName": "Shat Gombuj Mosque",
+              "img": "https://images.unsplash.com/photo-1603792763121-8a38d65f9c2a",
+              "cost": 3000,
+              "duration": "1 day",
+              "district": "Bagerhat",
+              "description": "A UNESCO World Heritage mosque, known for its 60 domes.",
+              "highlights": [
+                "Historical architecture",
+                "Cultural heritage"
+              ],
+              "includedServices": [
+                "Entry ticket",
+                "Tour guide"
+              ],
+              "category": "Cultural",
+              "pricingType": "Per Person"
+            },
+            {
+              "id": 15,
+              "placeName": "Jaflong Hills",
+              "img": "https://images.unsplash.com/photo-1603792876732-ff7c13be8ad4",
+              "cost": 7500,
+              "duration": "3 days, 2 nights",
+              "district": "Moulvibazar",
+              "description": "Known for its rolling hills and crystal-clear lakes, perfect for nature lovers.",
+              "highlights": [
+                "Hill trekking",
+                "Nature photography",
+                "Waterfall visits"
+              ],
+              "includedServices": [
+                "Hotel stay",
+                "Meals",
+                "Transport"
+              ],
+              "category": "Summer",
+              "pricingType": "Per Person"
+            },
+            {
+                "id": 16,
+                "placeName": "Paharpur Buddhist Vihara",
+                "img": "https://images.unsplash.com/photo-1615390878351-72c702702f2e",
+                "cost": 2500,
+                "duration": "1 day",
+                "district": "Naogaon",
+                "description": "Explore the ancient Buddhist Vihara, a UNESCO World Heritage site, showcasing archaeological ruins and a rich cultural history. This site offers a glimpse into the architectural marvels of the past, providing an enriching experience for history lovers and cultural explorers.",
+                "highlights": [
+                  "Archaeological ruins",
+                  "Buddhist history",
+                  "Cultural exploration",
+                  "UNESCO World Heritage site",
+                  "Peaceful surroundings"
+                ],
+                "includedServices": [
+                  "Entry ticket",
+                  "Guided tour"
+                ],
+                "category": "Cultural",
+                "pricingType": "Per Person"
+              },
+                {
+                  "id": 17,
+                  "placeName": "Kaptai Lake",
+                  "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/11/58/9f/panoramic-beauty-of-kaptai.jpg?w=1200&h=1200&s=1",
+                  "cost": 6000,
+                  "duration": "2 days, 1 night",
+                  "district": "Rangamati",
+                  "description": "A stunning lake surrounded by lush hills, ideal for boating and relaxation.",
+                  "highlights": [
+                    "Lake boating",
+                    "Hill trekking",
+                    "Scenic photography"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Transport",
+                    "Meals"
+                  ],
+                  "category": "Trending Now",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 18,
+                  "placeName": "Foy's Lake",
+                  "img": "https://images.unsplash.com/photo-1603793162649-4353eaeb8b5c",
+                  "cost": 4500,
+                  "duration": "1 day",
+                  "district": "Chattogram",
+                  "description": "Enjoy a peaceful day at one of the most scenic lakes in Bangladesh, with boating and rides.",
+                  "highlights": [
+                    "Lake activities",
+                    "Amusement rides",
+                    "Family-friendly"
+                  ],
+                  "includedServices": [
+                    "Boat ride",
+                    "Meals",
+                    "Amusement park entry"
+                  ],
+                  "category": "Family and Friends",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 19,
+                  "placeName": "Muktarpur Mosque",
+                  "img": "https://images.unsplash.com/photo-1603793306025-dfa2b3f85dfd",
+                  "cost": 2000,
+                  "duration": "1 day",
+                  "district": "Munshiganj",
+                  "description": "A historical mosque known for its intricate architecture and peaceful surroundings.",
+                  "highlights": [
+                    "Historical architecture",
+                    "Spiritual experience",
+                    "Local heritage"
+                  ],
+                  "includedServices": [
+                    "Guided tour"
+                  ],
+                  "category": "Cultural",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 20,
+                  "placeName": "Shalban Bihar",
+                  "img": "https://images.unsplash.com/photo-1603793422177-9f538631d8c1",
+                  "cost": 3000,
+                  "duration": "1 day",
+                  "district": "Comilla",
+                  "description": "An ancient Buddhist site with ruins and historical significance.",
+                  "highlights": [
+                    "Buddhist ruins",
+                    "Archaeological sites",
+                    "Cultural exploration"
+                  ],
+                  "includedServices": [
+                    "Entry ticket",
+                    "Guided tour"
+                  ],
+                  "category": "Cultural",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 21,
+                  "placeName": "Rangamati Bamboo Garden",
+                  "img": "https://images.unsplash.com/photo-1603793555379-c944497a0357",
+                  "cost": 3500,
+                  "duration": "2 days, 1 night",
+                  "district": "Rangamati",
+                  "description": "A peaceful retreat surrounded by bamboo forests, perfect for nature lovers.",
+                  "highlights": [
+                    "Nature walks",
+                    "Bamboo forest",
+                    "Tribal culture"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Local transport",
+                    "Meals"
+                  ],
+                  "category": "Nature",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 22,
+                  "placeName": "Kuakata",
+                  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQ_YO23oJEKmz9Qnunnibp34HN3R6nclDxg&s",
+                  "cost": 4500,
+                  "duration": "2 days, 1 night",
+                  "district": "Patuakhali",
+                  "description": "Famous for its unique location where both the sunrise and sunset can be viewed from the beach.",
+                  "highlights": [
+                    "Sunrise and sunset",
+                    "Beach activities",
+                    "Fishing"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Meals"
+                  ],
+                  "category": "Trending Now",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 23,
+                  "placeName": "Patuakhali",
+                  "img": "https://images.unsplash.com/photo-1603793798740-b3b9f4e5e3a4",
+                  "cost": 4000,
+                  "duration": "1 day",
+                  "district": "Patuakhali",
+                  "description": "Known for its natural beauty, rivers, and fresh seafood.",
+                  "highlights": [
+                    "River cruise",
+                    "Fishing",
+                    "Local seafood"
+                  ],
+                  "includedServices": [
+                    "Boat ride",
+                    "Meals"
+                  ],
+                  "category": "Summer",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 24,
+                  "placeName": "Cox's Bazar Marine Drive",
+                  "img": "https://images.squarespace-cdn.com/content/v1/6102abeba9fd55174a180768/10a1784d-d574-4aa3-84fa-672feaf6ed70/Marine+drive+road.jpg?format=500w",
+                  "cost": 6000,
+                  "duration": "2 days, 1 night",
+                  "district": "Cox's Bazar",
+                  "description": "Drive along the beautiful coastline and enjoy the stunning sea views.",
+                  "highlights": [
+                    "Coastal drive",
+                    "Sea views",
+                    "Beach stops"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Transport"
+                  ],
+                  "category": "Trending Now",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 25,
+                  "placeName": "Jatiyo Sangsad Bhaban",
+                  "img": "https://images.unsplash.com/photo-1603793993259-e5c2f0b45a9a",
+                  "cost": 1500,
+                  "duration": "1 day",
+                  "district": "Dhaka",
+                  "description": "The National Parliament House, designed by architect Louis Kahn, is an architectural marvel.",
+                  "highlights": [
+                    "Architectural tour",
+                    "National history"
+                  ],
+                  "includedServices": [
+                    "Guided tour"
+                  ],
+                  "category": "Cultural",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 26,
+                  "placeName": "Chittagong Hill Tracts",
+                  "img": "https://images.unsplash.com/photo-1603794102047-60f9b1b7bb36",
+                  "cost": 5000,
+                  "duration": "3 days, 2 nights",
+                  "district": "Chattogram",
+                  "description": "Experience the vibrant tribal culture and explore the beautiful hill landscapes.",
+                  "highlights": [
+                    "Hill trekking",
+                    "Tribal culture",
+                    "Scenic views"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Local transport"
+                  ],
+                  "category": "Winter",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 27,
+                  "placeName": "Sylhet Tea Gardens",
+                  "img": "https://images.unsplash.com/photo-1603794233845-bf25f0579e50",
+                  "cost": 4500,
+                  "duration": "2 days, 1 night",
+                  "district": "Sylhet",
+                  "description": "Discover the lush tea gardens and the picturesque hills of Sylhet.",
+                  "highlights": [
+                    "Tea tasting",
+                    "Nature walks",
+                    "Hill views"
+                  ],
+                  "includedServices": [
+                    "Tea tour",
+                    "Hotel stay"
+                  ],
+                  "category": "Summer",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 28,
+                  "placeName": "Bagerhat",
+                  "img": "https://images.unsplash.com/photo-1603794362092-c2883462e913",
+                  "cost": 2500,
+                  "duration": "1 day",
+                  "district": "Bagerhat",
+                  "description": "A UNESCO World Heritage site famous for its historical mosques and structures.",
+                  "highlights": [
+                    "Historical architecture",
+                    "Cultural heritage",
+                    "Local food"
+                  ],
+                  "includedServices": [
+                    "Entry ticket",
+                    "Tour guide"
+                  ],
+                  "category": "Cultural",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 29,
+                  "placeName": "Sreemangal",
+                  "img": "https://images.unsplash.com/photo-1603794485459-1a94490b370b",
+                  "cost": 4000,
+                  "duration": "2 days, 1 night",
+                  "district": "Moulvibazar",
+                  "description": "Known for its tea gardens, the 'Tea Capital of Bangladesh.'",
+                  "highlights": [
+                    "Tea plantation tour",
+                    "Nature walks",
+                    "Tribal village visit"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Transport"
+                  ],
+                  "category": "Nature",
+                  "pricingType": "Per Person"
+                },
+                {
+                  "id": 30,
+                  "placeName": "Barisal",
+                  "img": "https://images.unsplash.com/photo-1603794603480-933cf2a75fcb",
+                  "cost": 3500,
+                  "duration": "2 days, 1 night",
+                  "district": "Barisal",
+                  "description": "Famous for its rivers and natural beauty, an ideal escape for nature lovers.",
+                  "highlights": [
+                    "River cruises",
+                    "Fishing",
+                    "Local markets"
+                  ],
+                  "includedServices": [
+                    "Hotel stay",
+                    "Meals"
+                  ],
+                  "category": "Rainy",
+                  "pricingType": "Per Person"
+                }
+              
+          
     ]
 }
