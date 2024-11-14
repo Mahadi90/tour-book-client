@@ -24,9 +24,10 @@ const Navbar = () => {
             top: 0,
             width: "100%",
             padding: "1rem",
-            backgroundColor: isSticky ? "rgba(0, 0, 0, 0.8)" : "transparent",
+            backgroundColor: isSticky ? "rgba(255, 255, 255)" : "transparent",
+            boxShadow : isSticky? "3px 3px 25px black" : "",
             color: "white",
-            transition: "background-color 0.3s ease",
+            transition: "background-color 1s ease",
             zIndex : "10"
           }}
         >
@@ -35,7 +36,7 @@ const Navbar = () => {
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-8 w-8 text-orange-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor">
@@ -58,7 +59,7 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl"><img className='w-32 md:w-40' src='/logo.png'></img></a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-orange-600">
            <Link className='font-semibold mx-4 text-lg' to={'/'}>Home</Link>
            <Link className='font-semibold mx-4 text-lg' to={'/about'}>About Us</Link>
            <Link className='font-semibold mx-2 text-lg' to={'/packages'}>Packages</Link>
