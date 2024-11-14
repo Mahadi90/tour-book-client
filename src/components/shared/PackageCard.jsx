@@ -3,8 +3,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PackageCard = ({trending}) => {
-    const {id,placeName, img,duration,district, pricingType, cost} = trending;
+const PackageCard = ({item}) => {
+    const {id,placeName, img,duration,district, pricingType, cost} = item;
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
   <figure>

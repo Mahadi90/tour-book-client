@@ -26,7 +26,7 @@ const TrendingNow = () => {
                 trendingPackages.map(pkg => <PackageCard
 
                 key={pkg.id}
-                trending={pkg}
+                item={pkg}
                 ></PackageCard>)
             }
           </div>

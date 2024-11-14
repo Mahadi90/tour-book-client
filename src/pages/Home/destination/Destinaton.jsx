@@ -23,7 +23,7 @@ const Destinaton = () => {
 
     let allDisPackages = []
     for (const district of districts) {
-        const disPackages = allPackages.find(item => item.district === district)
+        const disPackages = allPackages?.find(item => item.district === district)
         allDisPackages.push(disPackages)
     }
     // console.log(allDisPackages)
@@ -62,7 +62,7 @@ const Destinaton = () => {
                     onSlideChange={() => console.log('slide change')}
                 >
                     {
-                        allDisPackages.map(item => <SwiperSlide key={item.id}>
+                        allDisPackages?.map(item => <SwiperSlide key={item?.id}>
                             <DesCard item={item}></DesCard>
                         </SwiperSlide>)
                     }

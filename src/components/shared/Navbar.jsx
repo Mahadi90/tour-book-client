@@ -50,8 +50,8 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-orange-400 rounded-box z-[1] mt-3 w-52 p-2 shadow">
               <Link className='font-semibold mx-2 text-lg' to={'/'}>Home</Link>
-           <Link className='font-semibold mx-2 text-lg' to={'/'}>About Us</Link>
-           <Link className='font-semibold mx-2 text-lg' to={'/'}>Services</Link>
+           <Link className='font-semibold mx-2 text-lg' to={'/about'}>About Us</Link>
+           <Link className='font-semibold mx-2 text-lg' to={'/packages'}>Packages</Link>
            <Link className='font-semibold mx-2 text-lg' to={'/'}>Contact</Link>
             </ul>
           </div>
@@ -60,8 +60,8 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
            <Link className='font-semibold mx-4 text-lg' to={'/'}>Home</Link>
-           <Link className='font-semibold mx-4 text-lg' to={'/'}>About Us</Link>
-           <Link className='font-semibold mx-4 text-lg' to={'/'}>Services</Link>
+           <Link className='font-semibold mx-4 text-lg' to={'/about'}>About Us</Link>
+           <Link className='font-semibold mx-2 text-lg' to={'/packages'}>Packages</Link>
            <Link className='font-semibold mx-4 text-lg' to={'/'}>Contact</Link>
           </ul>
         </div>
