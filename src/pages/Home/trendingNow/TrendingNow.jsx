@@ -24,6 +24,7 @@ const TrendingNow = () => {
           <div className='grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-8 my-8'>
             {
                 trendingPackages.map(pkg => <PackageCard
+
                 key={pkg.id}
                 trending={pkg}
                 ></PackageCard>)

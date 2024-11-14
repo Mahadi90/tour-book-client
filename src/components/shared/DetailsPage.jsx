@@ -19,7 +19,7 @@ const DetailsPage = () => {
       {/* Background video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="../../../public/banner-bg.mp4" // replace with your video path
+        src="/banner-bg.mp4" // replace with your video path
         autoPlay
         loop
         muted
