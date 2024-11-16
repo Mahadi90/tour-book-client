@@ -4,12 +4,13 @@ import { Outlet } from 'react-router-dom';
 import Banner from './banner/Banner';
 import TrendingNow from './trendingNow/TrendingNow';
 import Destinaton from './destination/Destinaton';
-import StickyIcon from '../../components/StickyIcon';
+
+import StickySocialIcons from '../../components/StickyIcon';
 
 const Home = () => {
     return (
         <div>
-            <StickyIcon></StickyIcon>
+          <StickySocialIcons></StickySocialIcons>
            <Banner></Banner>
            <Destinaton/>
            <TrendingNow/>

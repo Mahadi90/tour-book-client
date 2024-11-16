@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import img from '../../assets/images/TourBook Profile (With BG) (1).png'
+import StickySocialIcons from '../../components/StickyIcon';
 
 const About = () => {
     return (
         <div>
+            <StickySocialIcons></StickySocialIcons>
             <div className='w-screen'>
                 <img className='w-full h-[40vh] lg:h-[85vh]' src={img} alt="" />
             </div>

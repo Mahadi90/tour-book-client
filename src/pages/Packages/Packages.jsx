@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import img from '../../assets/images/TourBook Profile (With BG) (1).png'
 import PackageCard from '../../components/shared/packageCard';
+import StickySocialIcons from '../../components/StickyIcon';
 
 const Packages = () => {
 
@@ -28,6 +29,7 @@ const Packages = () => {
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
     return (
         <div>
+            <StickySocialIcons></StickySocialIcons>
             <div className='w-screen'>
                 <img className='w-full h-[40vh] lg:h-[85vh]' src={img} alt="" />
             </div>

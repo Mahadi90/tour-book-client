@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const StickySocialIcons = () => {
   return (
-    <div className="fixed bottom-4 right-4 flex flex-col space-y-3 z-20">
+    <div className="fixed bottom-80 md:bottom-4  right-4 flex flex-col space-y-3 z-20">
       {/* Facebook */}
       <a target='blank' href="https://www.facebook.com/tourbookofficial"><button className="btn btn-circle btn-primary">
         <FaFacebook size={20} />
