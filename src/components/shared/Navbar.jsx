@@ -26,7 +26,7 @@ const Navbar = () => {
             padding: "1rem",
             backgroundColor: isSticky ? "rgba(255, 255, 255)" : "transparent",
             boxShadow : isSticky? "3px 3px 25px black" : "",
-            color: "white",
+            color: isSticky ? "rgba(255, 165, 0)" : "white",
             transition: "background-color 1s ease",
             zIndex : "10"
           }}
@@ -53,17 +53,17 @@ const Navbar = () => {
               <Link className='font-semibold mx-2 text-lg' to={'/'}>Home</Link>
            <Link className='font-semibold mx-2 text-lg' to={'/about'}>About Us</Link>
            <Link className='font-semibold mx-2 text-lg' to={'/packages'}>Packages</Link>
-           <Link className='font-semibold mx-2 text-lg' to={'/'}>Contact</Link>
+           <Link className='font-semibold mx-2 text-lg' to={'/contact'}>Contact</Link>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl"><img className='w-32 md:w-40' src='/logo.png'></img></a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-orange-600">
+          <ul className="menu menu-horizontal px-1">
            <Link className='font-semibold mx-4 text-lg' to={'/'}>Home</Link>
            <Link className='font-semibold mx-4 text-lg' to={'/about'}>About Us</Link>
            <Link className='font-semibold mx-2 text-lg' to={'/packages'}>Packages</Link>
-           <Link className='font-semibold mx-4 text-lg' to={'/'}>Contact</Link>
+           <Link className='font-semibold mx-4 text-lg' to={'/contact'}>Contact</Link>
           </ul>
         </div>
         <div className="navbar-end">

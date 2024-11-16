@@ -33,7 +33,7 @@ const Destinaton = () => {
     return (
         <div className='my-20'>
             <div className='text-center space-y-2'>
-                <h2 className='text-4xl font-bold text-orange-400'>--- Select your Destination ---</h2>
+                <h2 className='text-2xl md:text-4xl font-bold text-orange-400'>--- Select your Destination ---</h2>
                 <p className='text-gray-600 font-semibold'>Here you can see all of our District wise packages</p>
             </div>
             <div className='mx-2 md:mx-8 mt-16'>

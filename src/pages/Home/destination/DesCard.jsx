@@ -9,7 +9,7 @@ const DesCard = ({ item }) => {
     return (
         <Link to='/packages'>
         
-        <div className="card bg-base-100 image-full w-36 h-36 shadow-xl">
+        <div className="card bg-base-100 image-full w-28 h-28 md:w-36 md:h-36 shadow-xl">
             <figure>
                 <img
                     src={item?.img}

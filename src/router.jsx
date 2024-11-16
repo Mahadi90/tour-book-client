@@ -4,6 +4,7 @@ import Main from "./layout/Main";
 import About from "./pages/about/About";
 import DetailsPage from "./components/shared/DetailsPage";
 import Packages from "./pages/Packages/Packages";
+import ContactForm from "./pages/contact/ContactForm";
 
 
 export const router = createBrowserRouter([
@@ -25,9 +26,13 @@ export const router = createBrowserRouter([
                 element : <Packages></Packages>,
             },
             {
+                path : '/contact',
+                element : <ContactForm></ContactForm>,
+            },
+            {
                 path : '/details/:id',
                 element : <DetailsPage></DetailsPage>,
-                loader : ({params}) => fetch(`http://localhost:5173/details/${params.id}`)
+                loader : ({params}) => fetch(`http://localhost:5173//${params.id}`)
             },
         ]
     }
